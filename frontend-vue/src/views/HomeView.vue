@@ -1,17 +1,16 @@
 <template>
-  <div class="home">
-    <Homepage />
-  </div>
+      <Dashboard />
 </template>
 
 <script>
 // @ is an alias to /src
-import Homepage from '@/components/User/Homepage/Homepage.vue'
+import Dashboard from '@/components/Admin/Homepage/Dashboard.vue'
+
 
 export default {
   name: 'HomeView',
   components: {
-    Homepage
+    Dashboard,
   }
 }
 </script>

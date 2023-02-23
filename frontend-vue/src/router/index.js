@@ -38,6 +38,20 @@ const routes = [
     name: "Login",
     component: () => import("../components/User/Login/Login.vue"),
   },
+
+  // Admin
+  {
+    path: "/admin",
+    name: "admin",
+    component: () => import("../components/Admin/Homepage/Dashboard.vue"),
+  },
+
+  {
+    path: "/adminBlog",
+    name: "adminBlog",
+    component: () => import("../components/Admin/Blog/Index.vue"),
+  },
+
   // 404 Page
   {
     path: "/:pathMatch(.*)*",
