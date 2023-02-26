@@ -3,40 +3,40 @@
     <div class="flex justify-between p-6 border-b shadow-lg">
       <div class="w-full flex">
         <div class="flex justify-between items-center w-full">
-          <router-link to="/"><img src="https://themewagon.github.io/shionhouse/assets/img/logo/logo.png"
-              alt="" /></router-link>
+          <a href="/"><img src="https://themewagon.github.io/shionhouse/assets/img/logo/logo.png"
+              alt="" /></a>
           <div class="hidden lg:flex justify-between items-center w-4/5">
             <nav>
               <ul class="uppercase lg:flex">
                 <li
                   class="mx-5 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-red-500 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
-                  <router-link to="/">Home</router-link>
+                  <a href="/">Home</a>
                 </li>
                 <li
                   class="mx-5 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-red-500 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
-                  <router-link to="/shop">shop</router-link>
+                  <a href="/shop">shop</a>
                 </li>
                 <li
                   class="mx-5 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-red-500 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
-                  <router-link to="/about">About</router-link>
+                  <a href="/about">About</a>
                 </li>
                 <li
                   class="mx-5 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-red-500 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
-                  <router-link to="/blog">Blog</router-link>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li
                   class="mx-5 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-red-500 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">
-                  <router-link to="/contact">Contact</router-link>
+                  <a href="/contact">Contact</a>
                 </li>
               </ul>
             </nav>
             <div class="lg:flex items-center">
               <div class="flex mr-12 lg:text-sm uppercase lg:">
-                <router-link to="/login"
-                  class="mx-3 mx-5 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-red-500 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">Login</router-link>
+                <a href="/login"
+                  class="mx-3 mx-5 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-red-500 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">Login</a>
                 <span>/</span>
-                <router-link to="/login"
-                  class="mx-3 mx-5 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-red-500 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">Register</router-link>
+                <a href="/register"
+                  class="mx-3 mx-5 relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-red-500 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300">Register</a>
               </div>
               <div class="flex">
                 <div class="relative">
@@ -139,7 +139,7 @@
             <nav>
               <ul class="uppercase lg:flex leading-9">
                 <li class="">
-                  <router-link to="/">Home</router-link>
+                  <a href="/">Home</a>
                 </li>
                 <li class="">
                   <button class="w-full flex justify-between uppercase items-center"
@@ -161,18 +161,18 @@
                   </div>
                 </li>
                 <li class="">
-                  <router-link to="/about">About</router-link>
+                  <a to="/about">About</a>
                 </li>
                 <li class="">
-                  <router-link to="/blog">Blog</router-link>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li class="">
-                  <router-link to="/contact">Contact</router-link>
+                  <a href="/contact">Contact</a>
                 </li>
                 <li class="text-center mt-3">
-                  <router-link to="/login">Login</router-link>
+                  <a href="/login">Login</a>
                   <span class="mx-3">/</span>
-                  <router-link to="/login">Register</router-link>
+                  <a href="/register">Register</a>
                 </li>
               </ul>
             </nav>

@@ -1,17 +1,20 @@
 <template>
-  <div class="overflow-hidden">
+  <div>
 
-    <!-- //User
+    <!-- User -->
     <Header />
-    <router-view />
-    <Footer /> -->
+    <div class="overflow-hidden">
+      <router-view />
+    </div>
+    <Footer />
+
     <!-- Admin -->
-    <div class="flex">
-      <!-- Sidebar -->
+    <!-- <div class="flex">
+      Sidebar
       <Sidebar v-if="openSidebar" />
-      <div class="w-full">
-        <!-- Header -->
-        <header>
+      <div class="w-full"> -->
+    <!-- Header -->
+    <!-- <header>
           <div class="flex justify-between items-center py-4 px-3 lg:px-8 border-b shadown-lg">
             <button class="border rounded-lg p-1" @click="openSidebar = !openSidebar">
               <span aria-hidden="true">
@@ -39,7 +42,6 @@
                 <button class="mx-3" @click="toggleAccount">
                   <i class="fa fa-user" aria-hidden="true"></i>
                 </button>
-                <!-- Account -->
                 <div class="absolute z-30 right-0 shadown-lg top-6" :class="{ hidden: !account }">
                   <div class="bg-white rounded-lg shadow-lg py-2 w-48">
                     <a href="#" class="block font-semibold px-4 py-2 | hover:bg-gray-200">Your profile</a>
@@ -50,38 +52,40 @@
               </div>
             </div>
           </div>
-        </header>
-        <!-- Main content -->
-        <router-view />
-      </div>
-    </div>
+        </header> -->
+    <!-- Main content -->
+    <!-- <router-view />
+      </div> 
+    </div>-->
   </div>
 </template>
 <script>
-// import Header from '@/components/User/Layout/Header.vue'
-// import Footer from '@/components/User/Layout/Footer.vue'
+import Header from '@/components/User/Layout/Header.vue'
+import Footer from '@/components/User/Layout/Footer.vue'
+import AOS from 'aos';
 
-// import Header from '@/components/Admin/Layout/Header.vue'
-// import Footer from '@/components/Admin/Layout/Footer.vue'
-import Sidebar from '@/components/Admin/Layout/Sidebar.vue'
+// import Sidebar from '@/components/Admin/Layout/Sidebar.vue'
 export default {
   name: 'HomeView',
   components: {
-    // Header,
-    // Footer
-    Sidebar
+    Header,
+    Footer,
+    // Sidebar
   },
-  data() {
-    return {
-      account: false,
-      openSidebar: true,
-    }
-  },
-  methods: {
-    toggleAccount() {
-      this.account = !this.account;
-    },
-  },
+  // data() {
+  //   return {
+  //     account: false,
+  //     openSidebar: true,
+  //   }
+  // },
+  // methods: {
+  //   toggleAccount() {
+  //     this.account = !this.account;
+  //   },
+  // },
+  mounted() {
+    AOS.init()
+  }
 }
 </script>
 <style></style>

@@ -32,7 +32,7 @@
                 <router-link class="link" to="/Shop">
                     <p
                         class="mt-12 w-fit text-center text-xl border px-8 mx-auto cursor-pointer duration-300 bg-red-500 text-white py-3 hover:bg-red-600 uppercase rounded-full">
-                        Shopping now
+                        Shop now
                     </p>
                 </router-link>
             </div>

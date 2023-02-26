@@ -24,6 +24,11 @@ const routes = [
     component: () => import("../components/User/Shop/Shop.vue"),
   },
   {
+    path: "/shopdetail",
+    name: "shopdetail",
+    component: () => import("../components/User/Shop/ShopDetail.vue"),
+  },
+  {
     path: "/blog",
     name: "blog",
     component: () => import("../components/User/Blog/Blog.vue"),
@@ -38,7 +43,11 @@ const routes = [
     name: "Login",
     component: () => import("../components/User/Login/Login.vue"),
   },
-
+  {
+    path: "/register",
+    name: "register",
+    component: () => import("../components/User/Login/Register.vue"),
+  },
   // Admin
   {
     path: "/admin",

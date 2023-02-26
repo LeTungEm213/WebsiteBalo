@@ -76,28 +76,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <ul class="lg:flex justify-between">
-                                <li>
-                                    <button>
-                                        <i class="fa fa-flag" aria-hidden="true"></i>
-                                        <span class="ml-3">
-                                            Size Guide
-                                        </span>
-                                    </button>
-                                </li>
-                                <li>
-                                    <button>
-                                        <i class="fa fa-truck" aria-hidden="true"></i>
-                                        <span class="ml-3">Shipping</span></button>
-                                </li>
-                                <li>
-                                    <button>
-                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                        <span class="ml-3"> Ask About This Product</span></button>
-                                </li>
-                            </ul>
-                        </div>
                         <div class="flex justify-between mt-12">
                             <div class="flex w-full">
                                 <button class="border-b border-t border-l px-3 py-1 border-gray-500 hover:bg-gray-200"
